@@ -9,7 +9,7 @@ class HeaderTitle extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
         Column(
-          children: [
+          children: const [
             Text(
               'Welcome to Flutter',
               style: TextStyle(
@@ -17,7 +17,7 @@ class HeaderTitle extends StatelessWidget {
                 fontSize: 25.0,
               ),
             ),
-            const SizedBox(height: 8.0),
+            SizedBox(height: 8.0),
             Text(
               'Multi Bloc Provider...',
               style: TextStyle(
@@ -29,17 +29,15 @@ class HeaderTitle extends StatelessWidget {
         ),
         const SizedBox(width: 18.0),
         CircleAvatar(
-          backgroundColor: Colors.blue,
-          radius: 35,
-          child: Text(
-            'BLoC MP',
-            style: TextStyle(fontSize: 12, color: Colors.white),
-          ), //Text
-          //backgroundImage:
-          //NetworkImage(
-          //   'https://cdn2.myminifactory.com/assets/object-assets/5f435a90d22ba/images/720X720-viper-avatar.jpg',
-          // ),
-        )
+            backgroundColor: Colors.orangeAccent,
+            radius: 35,
+            child: SizedBox(
+              width: 56,
+              height: 56,
+              child: ClipOval(
+                child: Image.asset("assets/bloc.png"),
+              ),
+            ))
       ],
     );
   }

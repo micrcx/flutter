@@ -4,12 +4,6 @@ import 'container_body.dart';
 import 'actions_panel_widget.dart';
 import 'header_title.dart';
 
-// import 'package:infogames/ui/home/widgets/all_games_widget/all_games_widget.dart';
-// import 'package:infogames/ui/home/widgets/category_widget/account_states_panel_widget.dart';
-// import 'package:infogames/ui/home/widgets/games_by_category_widget/actions_panel_widget.dart';
-// import 'package:infogames/ui/home/widgets/header_title/header_title.dart';
-// import 'package:infogames/ui/widgets/container_body.dart';
-
 class HomeLayout extends StatelessWidget {
   const HomeLayout({
     Key? key,

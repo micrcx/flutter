@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../account_repository.dart';
-import '../account_manager.dart';
 import '../blocs/bloc_account.dart';
 import '../blocs/bloc_action.dart';
 import '../states/action_states.dart';
