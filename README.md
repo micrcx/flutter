@@ -1,6 +1,6 @@
 # multi_bloc
 
-A new Flutter project.
+Flutter in action. BloC
 
 ## Getting Started
 
