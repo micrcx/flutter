@@ -42,3 +42,7 @@ Create method in the ActionStateMachine class describes the state machine depict
 
 
 
+
+
+https://user-images.githubusercontent.com/1311649/218543493-4e70a1fc-621e-444a-ac5e-c1fa738dec33.mp4
+
