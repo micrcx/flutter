@@ -38,7 +38,7 @@ I omit the implementation details, the code can be found in the repository, but 
 
 ## Class describing the state machine for account actions
 
-Create method in the ActiontStateMachine class describes the state machine depicted in the chart above.
+Create method in the ActionStateMachine class describes the state machine depicted in the chart above.
 
 
 
